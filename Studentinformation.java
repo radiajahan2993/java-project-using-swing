@@ -1,10 +1,10 @@
 
-package com.mycompany.studentinformation;
+package com.mycompany.student_information;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Studentinformation extends JFrame {
+public class Student_information extends JFrame {
     private JLabel nameLabel, classLabel, rollLabel, schoolLabel, nationalityLabel;
     private JTextField nameField, classField, rollField, schoolField;
     private JButton submitButton;
@@ -15,7 +15,7 @@ public class Studentinformation extends JFrame {
     private JRadioButton bangladeshiRadioButton;
     private ButtonGroup nationalityButtonGroup;
 
-    public Studentinformation() {
+    public Student_information() {
         setTitle("Student Form");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -123,6 +123,6 @@ public class Studentinformation extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Studentinformation();
+        new Student_information();
     }
 }
